@@ -63,3 +63,22 @@ To run the demo, execute the following script:
 ```
 
 The script will evaluate the H2 molecule on various basis sets and save the results in the `./logger` directory. The results include the energy and convergence information for each basis set, as well as the time taken for each calculation. Please note that the demo may take some time to run, depending on your hardware, the size of the basis sets, number of training iterations (learning rate), batch size (for larger molecules).
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@article{zhao2023scalable,
+  title={Scalable Neural Quantum States Architecture for Quantum Chemistry},
+  author={Zhao, Tianchen and Stokes, James and Veerapaneni, Shravan},
+  journal={Machine Learning: Science and Technology},
+  volume={4},
+  number={2},
+  pages={025034},
+  year={2023}
+}
+```
+
+Paper: https://arxiv.org/abs/2208.05637  
+Project page: https://ericolony.github.io/Publications/scalable-neural-quantum-states-architecture-for-quantum-chemistry/
